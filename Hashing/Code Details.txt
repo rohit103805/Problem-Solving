@@ -1,0 +1,17 @@
+HASHING.
+
+
+The following code stores the data of students in a standard say Standard 12. 
+In the 12th Standard there maybe n number of sections. Which I took as 5 say A, B, C, D, E.
+when there are more than one student in one particular Section we use the logic of Open Hashing(Chaining method).
+
+Here we use a matrix to store the chains, where Mat(name of Matrix)[0] stores data of Section A, Mat[1] for section B and so on.
+In the chains we store the section roll of the student and his/her name.
+
+Here we use the ID as the key which is the form as 101: means 1st student of Sec A, 303 : means 3rd student of sec C and so on.
+
+
+I used this in place of the traditional Linked List used everywhere.
+Mainly because while using Linked List...its impossible to search an element in O(1) {which is theoritically said}.
+
+My code guarentees that the student details will always be found in O(1) everytime.
